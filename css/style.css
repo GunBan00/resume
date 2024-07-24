@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(173, 173, 173);
+}
+
+header {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+header img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px;
+    padding: 10px;
+
+    text-align: center;
+    font-family: "Gowun Dodum";
+}
+
+header h1 a {
+    text-decoration: none;
+    color: rgb(108, 111, 156);
+}
+
+header h1 a:hover {
+    color: rgb(56, 39, 39)
+}
+
+header h5 {
+    font-family: "Gowun Batang";
+    color: rgb(109, 68, 221);
+
+    text-align: center;
+}
+
+div#content {
+    width: 1000px;
+    height: 950px;
+    margin: 20px auto;
+    padding: 10px;
+    
+}
+
+
+#left_content {
+    width: 39%;
+    height: 940px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(241, 241, 241);
+    float: left;
+}
+
+#right_content {
+    width: 60%;
+    height: 940px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(20, 20, 20);
+    float: left;
+    border-radius: 0 30px 0 0;
+}
+
+.r {
+    margin: 10px;
+    padding: 10px;
+
+
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+
+    font-family: "IBM Plex Sans KR";
+}
+
+.r h4 {
+    border-left: 10px solid black;
+    padding-left: 10px;
+
+    margin: 10px 0 15px 0;
+}
+
+#r0 p {
+    font-size: 85%;
+    text-align: justify;
+}
+
+#r1 p, #r3 p {
+    background-image: url('../img/game.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    padding: 10px;
+}
+
+#r2 li {
+    list-style-type: none;
+}
+
+#r3 p {
+    background-image: url('../img/edu.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#r4 p {
+    margin-bottom: 10px;
+}
+
+#r5 p {
+    margin-bottom: 10px;
+}
+
+#pagetop {
+    position: fixed;
+
+    bottom: 10px;
+    right: 10px;
+}
